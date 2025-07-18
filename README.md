@@ -10,7 +10,7 @@ This project explores whether **Molecular Evolution Mechanism (MEvoN)** can enha
 1. **MEvoN Construction**: Simulates molecular evolution to generate enhanced molecular representations.
 2. **MEvoN-based MPP Task**: Utilizes MEvoN-generated representations for molecular property prediction.
 
-The experiments are conducted on the **QM9 dataset**, a widely used quantum chemistry dataset containing ~134,000 organic molecules with multiple property labels.
+The experiments are conducted on the **QM7/9 dataset**, a widely used quantum chemistry dataset containing ~134,000 organic molecules with multiple property labels.
 
 ---
 
@@ -49,10 +49,10 @@ conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvi
 To generate molecular representations using MEvoN, run the following script:
 
 ```
-python main_graph_qm9.py
+python graph\create\main_graph_qm9.py
 ```
 
-This script calls ```root/graph_v2.py``` for molecular graph generation. The generated results are saved in the ```graph/``` directory with the following structure:
+This script calls ```graph\create\graph_v2.py``` for molecular graph generation. The generated results are saved in the ```graph/create``` directory with the following structure:
 
 ```
 {
