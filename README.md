@@ -118,8 +118,3 @@ We welcome contributions! Please follow these steps:
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 
-## Acknowledgments
-
-For questions or feedback, please contact likun98@whu.edu.cn.
-
-
