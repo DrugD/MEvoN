@@ -5,6 +5,7 @@
 ![PyTorch](https://img.shields.io/badge/pytorch-1.8%2B-orange)
 
 ## Overview
+The code is for "Can Molecular Evolution Mechanism Enhance Molecular Representation?", AAAI 2026. The Appendix can be found at ./appendix.pdf.
 
 This project explores whether **Molecular Evolution Mechanism (MEvoN)** can enhance **Molecular Representation** for downstream tasks such as **Molecular Property Prediction (MPP)**. The framework consists of two main components:
 1. **MEvoN Construction**: Simulates molecular evolution to generate enhanced molecular representations.
